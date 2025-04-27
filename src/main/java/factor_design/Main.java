@@ -40,7 +40,10 @@ public class Main {
 
         Car car1=CarFactory.getCar("Audi");
         car1.create();
+
         Car car2=CarFactory.getCar("Tata");
+        Tata t=(Tata)car2;
+        t.evCreate();
         car2.create();
         Car car3=CarFactory.getCar("Hyundai");
         car3.create();
