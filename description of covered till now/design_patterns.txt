@@ -1,0 +1,31 @@
+
+*****need to push code to github*********
+OOPS: type of constructors, super and this keyword, inheritance, interfaces, access modifiers, encapsulation
+
+Singleton Pattern -- static keyword, private constructor 
+Factory Pattern -- interface, factory , super class child class (why we need abstraction refernce type , downcasting ,upcasting )
+Facade pattern - hiding complex details by frontfacing it (pending need to implement it for an example) --speakers
+Observer pattern- brute force and optimal  brute force -- without interface calling the observers and updating them with latest changes (its a pubsub model)
+                 optimal one - having a interface as refernce type for the observers which make add,deletion and updation easier
+
+builder design pattern - to ensure order of paramters and avoid confusion in passing while object creation we go for this pattern , here we have nested class 
+
+nested class is static which is called using parent class and has build function which handles this order using set functions.
+
+Strategy pattern - its more concerned about structure of data organized rather than object creation best example payment here which payment type is choosen is 
+decided duirng run time
+
+Adapter pattern - to connect old system to new system we use this adapter concept. it has adapter which connects them using interface. (actually we call old system with new systems)
+					HDMI to VGA adapter
+prototype pattern - creation of objects uisng clone by hiding it from client.
+
+
+Multithreading :  having more than thread (implementing it using Runnable interface) and also had discussion of it in singleton pattern (sempahores is covered but not fully)
+
+
+-------------------
+toady we have implemented equals and hashcode functions for scenarios like deletion of duplicates in collections like hashset and arraylist.
+
+
+
+
