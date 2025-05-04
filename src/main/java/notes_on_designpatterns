@@ -6,3 +6,8 @@ interface
 creation of class object memory using interface as reference
 tostring --returns info  about class variables
 paramterized
+
+
+study the internal implementaion of hashset and hashmap and what is hashcode here (collison hashing)
+
+learn about generic and wrapper and <?>  .
